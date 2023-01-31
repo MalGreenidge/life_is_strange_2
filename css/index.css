@@ -1,0 +1,71 @@
+* {
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    padding: 8px 26px;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.top-section {
+    background-image: url(/top-section-background.jpeg);
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo {
+    position: relative;
+    top: 100px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 100px;
+    gap: 20px;
+}
+
+.watch-trailer {
+    background-color: #000;
+    color: #fff;  
+}
+
+.buy-now {
+    background-color: #ff0;
+    color: #000;
+}
+
+.trailer-section {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.trailer-section--show {
+    display: flex;
+}
+
+.close-trailer-icon {
+    width: 70px;
+    align-self: flex-end;
+    margin: 8px;
+}
+
+.trailer {
+    width: 100vw;
+    height: 56.4vw;
+}
